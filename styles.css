@@ -1,0 +1,51 @@
+#app {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  position: relative;
+}
+html {
+  background-image: linear-gradient(to left, #587fcd, #6d7cd8, #8777de, #a36fe1, #c163de, #e154c2, #f549a3, #ff4883, #ff6e4f, #ffa212, #d1d200, #7dfb5f);
+
+}
+
+.marker {
+  position: absolute;
+  width: 60px;
+  left: 172px;
+  top: -20px;
+  z-index: 2;
+}
+.wheel {
+  width: 100%;
+  height: 100%;
+  
+}
+.button {
+  display: block;
+  width: 250px;
+  margin: 40px auto;
+  cursor: pointer;
+  opacity: 0.7;
+  -webkit-box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+.button:hover {
+  opacity: 2.5;
+}
+.blur {
+  animation: blur 10s;
+}
+
+
+@keyframes blur {
+  0% {
+    filter: blur(1.5px);
+  }
+  80% {
+    filter: blur(1.5px);
+  }
+  100% {
+    filter: blur(0px);
+  }
+}
